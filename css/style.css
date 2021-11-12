@@ -9,6 +9,9 @@
     height: 100vh;
     display: flex;
     color: white;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
     
 }
 
@@ -27,11 +30,53 @@ header{
     justify-content: end;
     align-items:start;
     width: 100%;
-    height: 100px;
+    height: 10vh;
     padding: 10px;
 }
 
 .view{
     margin-right: 10px;
 }
+
+/* ---inizio main---- */
+.immagini{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 90vh;
+    width: 1200px;
+    
+}
+
+.image{
+    position: relative;
+   width:calc(1200px / 7 - 5px);
+   margin-left: 5px;
+  
+}
+
+.image>img{
+    width: 100%;
+}
+
+.utente{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.151);
+    font-size: 12px;
+    bottom:25%;
+    padding: 5px 5px;
+}
+
+
+
+
+/* --inizio footer-- */
+
+footer{
+    display: flex;
+    width:100%;
+    height:10vh;
+    background-color: rgb(24, 22, 22);
+}
+
 
