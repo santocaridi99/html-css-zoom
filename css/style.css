@@ -44,13 +44,13 @@ header{
     flex-wrap: wrap;
     background-color: black;
     height: 90vh;
-    width: 1200px;
+    width: 90vw;
     
 }
 
 .image{
     position: relative;
-   width:calc(1200px / 7 - 5px);
+   width:calc(90vw / 7 - 5px);
    margin-left: 5px;
   
 }
@@ -63,7 +63,7 @@ header{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.151);
     font-size: 12px;
-    bottom:25%;
+    bottom:20px;
     padding: 5px 5px;
 }
 
@@ -78,5 +78,7 @@ footer{
     height:10vh;
     background-color: rgb(24, 22, 22);
 }
+
+
 
 
